@@ -15,9 +15,9 @@
 #
 
 # inherit from the proprietary version
--include vendor/lenovo/aio_otfp/BoardConfigVendor.mk
+-include vendor/HOMTOM/S8/BoardConfigVendor.mk
 
-LOCAL_PATH := device/lenovo/aio_otfp
+LOCAL_PATH := device/HOMTOM/S8
  
 MTK_K64_SUPPORT := yes
 
@@ -122,7 +122,7 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 USE_CAMERA_STUB := true
 USE_MTK_CAMERA_WRAPPER := true
 BOARD_PROVIDES_RILD := true
-BOARD_RIL_CLASS := ../../../device/lenovo/aio_otfp/ril
+BOARD_RIL_CLASS := ../../../device/HOMTOM/S8/ril
 
 TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
@@ -193,4 +193,4 @@ TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Hardware SEPolicy
 BOARD_SEPOLICY_DIRS += \
-    device/lenovo/aio_otfp/sepolicy
+    device/HOMTOM/S8/sepolicy
