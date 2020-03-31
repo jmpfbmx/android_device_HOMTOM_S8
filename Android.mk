@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/lenovo/aio_otfp
+LOCAL_PATH := device/HOMTOM/S8
 
-ifeq ($(TARGET_DEVICE),aio_otfp)
+ifeq ($(TARGET_DEVICE),S8)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
