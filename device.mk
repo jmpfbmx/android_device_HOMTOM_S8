@@ -15,12 +15,12 @@
 #
 
 # call the proprietary setup
-$(call inherit-product, vendor/lenovo/aio_otfp/aio_otfp-vendor.mk)
+$(call inherit-product, vendor/HOMTOM/S8/S8-vendor.mk)
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_as_supl.mk)
 
-LOCAL_PATH := device/lenovo/aio_otfp
+LOCAL_PATH := device/HOMTOM/S8
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
