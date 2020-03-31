@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := K3Note
+PRODUCT_RELEASE_NAME := S8
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -16,12 +16,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Call device specific makefile
-$(call inherit-product, device/lenovo/aio_otfp/device.mk)
+$(call inherit-product, device/HOMTOM/S8/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_aio_otfp
-PRODUCT_DEVICE := aio_otfp
-PRODUCT_BRAND := Lemon
-PRODUCT_MODEL := K3Note
+PRODUCT_NAME := lineage_S8
+PRODUCT_DEVICE := S8
+PRODUCT_BRAND := HOMTOM
+PRODUCT_MODEL := S8
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RESTRICT_VENDOR_FILES := false
